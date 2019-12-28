@@ -1,0 +1,8 @@
+body{
+  background-color: #D5D4CC;
+  color: #555555;                                 /*Text color */
+  font-family: Verdana,Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: normal;                            /*weight of font lines */
+  line-height: 1.6em;                             /*the spacing between lines top and bottom */
+}
