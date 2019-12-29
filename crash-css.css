@@ -46,6 +46,21 @@ body{
   margin:auto;          /* margin is the spacing around the elements*/
 }
 
+.button{
+  padding: 10px 15px;
+  border:none;
+  color:yellow;
+  background-color:#333;
+}
+
+.button:hover{
+  background: red;
+  color:#fff
+}
+
+.clr{
+  clear:both;
+}
 .categories{
   border:1px #ccc solid;
   padding: 10px;
@@ -84,7 +99,7 @@ a:active{
 }
 
 a:visited{
-  color:green;
+
 }
 
 .my-form{
@@ -104,9 +119,27 @@ a:visited{
   width:100%;
 }
 
-.my-form input[type="submit"]{
-  padding: 10px 15px;
-  border:none;
-  color:yellow;
-  background-color:#333;
+.block{
+  float:left;
+  width: 27%;
+  border: 1px solid #ccc;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+#main-block{
+  float:left;
+  width:70%;
+  padding:15px;
+  box-sizing: border-box;
+
+}
+
+#sidebar{
+  float:right:
+  width:30%;
+  background-color: #333;
+  color:#fff;
+  padding: 15px;
+  box-sizing: border-box;
 }
