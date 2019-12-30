@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <body>
+      <h1>Learning HTML forms</h1>
+      <form action="">                                  <!--Specify the server side script to run the form data, none is current page-->
+        <fieldset>                                      <!--used to group related data in a form.-->
+          <legend>Personal Information</legend>         <!--defines a caption for the fieldset element.-->
+            Name: <input type="text" name="firstname"><br>
+            <br>
+            Last Name: <input type="text" name="lastname"><br>
+            <br>
+            Choose the gender that suits you:<br>
+            <input type="radio" name="gender" value="male" checked>Male Baba <br>
+            <input type="radio" name="gender" value="female" checked>Female <br>
+            <br>
+            Choose the type of women you like:<br>
+            <select name="women">                                 <!-- Creates a drop downlist for selection -->
+              <option value="slim">Slim and Slender</option>
+              <option value="athletic">Workout Babe</option>
+              <option value="bulky">Chiheavy</option>
+              <option value="mombe" selected>Meaty Woman</option>         <!-- selected keyword if you want a default selection-->
+            </select><br>
+            Any reason for this type of woman?:<br>
+            <textarea name="reason" rows="10" cols="50">
+              Write your reason here
+            </textarea><br>
+            <input type="submit" value="Submit Info">           <!--The submit button in all its glory-->
+        </fieldset>
+      </form>
+
+
+    </body>
+</html>
